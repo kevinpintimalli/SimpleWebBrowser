@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity"
+    android:title="">
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+
+    <item
+        android:id="@+id/prev"
+        android:title="@string/previous"
+        android:icon="@android:drawable/ic_media_previous"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/newView"
+        android:title="@string/newPage"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/next"
+        android:title="@string/next"
+        android:icon="@android:drawable/ic_media_next"
+        android:showAsAction="always"/>
+
+</menu>
