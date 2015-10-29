@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
             case(R.id.newView):
                 Fragment frag = WebViewFragment.newInstance();
                 fragmentArrayList.add(frag);
-                counter++;
+                counter=fragmentArrayList.size();
                 loadFragment(R.id.webFrame, frag, false);
                 return true;
             case(R.id.prev):
